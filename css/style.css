@@ -1,21 +1,27 @@
+
 body {
-    background-color: #f0f8ff;
     display: grid;
-    grid-template-rows: 100px 1fr 50px;
-    gap: 30px;
-    
-   
+ grid-template-rows:auto;
+ gap: 30px;
+ 
 }
 header:nth-child(img){
     display: none;
+    width: 100%;
 }
 header :nth-child(nav){
     background-color: #f0f8ff;
-    display:center;
-    justify-content: space-between;
-    align-items: unset;
+    display:100%;
     list-style-type: upper-latin;
    
-  
-
+}
+section:nth-of-type(3)
+{
+    display: grid;
+    gap: 30;
+    grid-template-columns: 1fr 1fr;
+}
+section:nth-of-type(button){
+    display: grid;
+    grid-template-rows: 70px;
 }
