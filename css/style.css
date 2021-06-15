@@ -1,0 +1,21 @@
+body {
+    background-color: #f0f8ff;
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    gap: 30px;
+    
+   
+}
+header:nth-child(img){
+    display: none;
+}
+header :nth-child(nav){
+    background-color: #f0f8ff;
+    display:center;
+    justify-content: space-between;
+    align-items: unset;
+    list-style-type: upper-latin;
+   
+  
+
+}
